@@ -1,1 +1,1 @@
-# Reposiroty for my AoC 2022 solutions
+# Repository for my Advent of Code 2022 solutions
