@@ -57,7 +57,7 @@ def solvePartTwo(inputLines):
     
     solution = sumOfPartlyOverlapping
     print(f"Day 4, part 2 solution: {solution}")
-
+.
 def main():
     inptuPath = "day4_input.txt"
 
