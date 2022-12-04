@@ -79,7 +79,6 @@ def main():
 
     inputLines = getInputLines(inptuPath)
 
-
     solvePartOne(inputLines)
     solvePartTwo(inputLines) 
 
