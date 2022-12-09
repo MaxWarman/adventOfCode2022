@@ -1,6 +1,6 @@
 """
 Author: github.com/MaxWarman
-Advent of Code 2022 - Day 6
+Advent of Code 2022 - Day 7
 """
 
 class Filesystem():
@@ -214,7 +214,7 @@ def solvePartOne(inputLines):
             sumOfSizes += directory.getTotalSize()
     
     solution = sumOfSizes
-    print(f"Day 6, part 1 solution: {solution}")
+    print(f"Day 7, part 1 solution: {solution}")
 
 
 def solvePartTwo(inputLines):
@@ -233,10 +233,10 @@ def solvePartTwo(inputLines):
             smallestSizeToDelete = directory.getTotalSize()
     
     solution = smallestSizeToDelete
-    print(f"Day 6, part 2 solution: {solution}")
+    print(f"Day 7, part 2 solution: {solution}")
 
 def main():
-    inputPath = "day6_input.txt"
+    inputPath = "day7_input.txt"
 
     inputLines = getInputLines(inputPath)
 
