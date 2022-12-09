@@ -26,9 +26,9 @@ def solvePartTwo(inputLines):
     #print(f"Day X, part 2 solution: {solution}")
 
 def main():
-    inptuPath = "dayX_input.txt"
+    inputPath = "dayX_input.txt"
 
-    inputLines = getInputLines(inptuPath)
+    inputLines = getInputLines(inputPath)
 
     solvePartOne(inputLines)
     solvePartTwo(inputLines) 
