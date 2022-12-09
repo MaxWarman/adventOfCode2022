@@ -70,9 +70,9 @@ def solvePartTwo(inputLines):
     print(f"Day 2, part 2 solution: {solution}")
 
 def main():
-    inptuPath = "day2_input.txt"
+    inputPath = "day2_input.txt"
 
-    inputLines = getInputLines(inptuPath)
+    inputLines = getInputLines(inputPath)
 
     solvePartOne(inputLines)
     solvePartTwo(inputLines) 
